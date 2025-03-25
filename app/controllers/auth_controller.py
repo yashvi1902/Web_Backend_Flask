@@ -1,4 +1,3 @@
-# app/controllers/auth_controller.py
 
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import create_access_token, jwt_required
@@ -27,7 +26,7 @@ def login():
     access_token = create_access_token(identity=username)
     return jsonify(access_token=access_token), 200
 
-# User registration route (optional)
+# User registration route
 @auth_bp.route('/register', methods=['POST'])
 def register():
     username = request.json.get('username', None)

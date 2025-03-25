@@ -1,4 +1,3 @@
-# app/controllers/file_controller.py
 
 import os
 from flask import Blueprint, request, jsonify
@@ -6,9 +5,6 @@ from werkzeug.utils import secure_filename
 from ..config import UPLOAD_FOLDER, ALLOWED_EXTENSIONS, MAX_FILE_SIZE
 
 file_bp = Blueprint('file_bp', __name__)
-
-# ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
-# MAX_FILE_SIZE = 2 * 1024 * 1024  # 2MB
 
 # Function to check allowed file types
 def allowed_file(filename):

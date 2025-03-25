@@ -1,4 +1,3 @@
-# app/models/user.py
 
 from .. import mysql
 from werkzeug.security import check_password_hash
