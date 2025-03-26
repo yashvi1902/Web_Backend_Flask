@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/yashvinavadia/Desktop/Web backend Mid term project/Web_Backend_Project/venv/bin/python3.13" "$0" "$@"
-' '''
+#!/Users/yashvinavadia/Desktop/Web_Backend_Project/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys

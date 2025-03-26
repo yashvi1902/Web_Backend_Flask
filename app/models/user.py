@@ -4,11 +4,11 @@ from werkzeug.security import check_password_hash
 
 
 class User:
-    def __init__(self, username, password,email,id):
+    def __init__(self, username, password,id=None):
         self.id = id
         self.username = username
         self.password = password
-        self.email = email
+    
         
 
     @classmethod
